@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge ONE</title>
+  <link rel="stylesheet" href="./css/desktop.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+</head>
+<body>
+  <header class="header-logo">
+    <img class="logo" src="./img/Logo.png" alt="">
+  </header>
+
+  <main class="container">
+
+    <article class="text-input">
+      <textarea class="input-area" id="input-user" placeholder="Ingrese el texto aquí"></textarea>
+      <div class="text-info">
+        <img src="./img/bi_exclamation-circle-fill.png">
+        <p>Solo letras minúsculas y sin acento</p>
+      </div>
+      <div class="buttons">
+        <button class="encrypt">Encriptar</button>
+        <button class="desencrypt">Desencriptar</button>
+      </div>
+    </article>
+
+    <article class="text-output">
+      <div class="not-found">
+        <div class="not-found-img">
+          <img src="./img/Muñeco.png">
+        </div>
+        <div class="not-found-text">
+          <h2>
+            Ningún mensaje fue encontrado
+          </h2>
+          <p>
+            Ingresa el texto que desees encriptar o <br> desencriptar
+          </p>
+        </div>
+      </div>
+      <div class="result hidden">
+        <textarea class="input-area" id="text-result" readonly></textarea>
+        <button class="copy-button">Copiar</button>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>
+    <p>Alura Challenge - </p>
+    <a href="https://nicolasmartinez.netlify.app" target="_blank"> Nicolas Martínez / </a>
+    <a href="https://github.com/elnico91" target="_blank"> Github /</a>
+    <a href="https://www.linkedin.com/in/nicolasmartinezcastro/" target="_blank"> LinkedIn </a>
+  </footer>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
